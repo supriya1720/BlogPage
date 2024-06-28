@@ -1,0 +1,44 @@
+.parentBriefDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+}
+.childBriefDiv{
+    height: 500px;
+    width: 65%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(83, 132, 126,0.6);
+    font-weight: bold;
+    font-size: 2.4vw;
+    position: relative;
+}
+.top-leftBrief{
+    position: absolute;
+    left:0;
+    top:0;
+    border-top:50px solid rgb(58, 57, 57,0.4);
+    border-right:50px solid rgb(36, 105, 98);
+    border-bottom:50px solid rgb(36, 105, 98);
+    border-left:50px solid rgb(58, 57, 57,0.4);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (width<=780px) {
+    .childBriefDiv{
+        font-size: 3vw;
+        height: 600px;
+        width: 70%;
+    }
+}
+@media screen and (width<=450px) {
+    .childBriefDiv{
+        font-size: 5vw;
+        height: 600px;
+        width: 80%;
+    }
+}

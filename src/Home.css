@@ -1,0 +1,146 @@
+.main-home{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.upper{
+    display: flex;
+    width: 100vw;
+    height: 57px;
+    justify-content: flex-end;
+  }
+  .mid{
+    height:120px;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mid-icon{
+    background-color:rgb(83, 132, 126,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mid-write{
+    background-color:rgb(83, 132, 126,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+}
+.text1{
+  margin: 0;
+  font-size: 4vw;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: transparent;
+  -webkit-text-stroke: 0.2vw black;
+}
+ .text2{
+  font-size: 1.9vw;
+}
+  .upper-1,.upper-2{
+    width:30vw;
+    border: solid  5px;
+    border-bottom: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-right: none;
+  }
+  .upper-1{
+    border-color:  white;
+  }
+  .upper-2{
+    border-color: rgb(4, 131, 117) ;
+    border-left: none;
+  }
+  .icon{
+   
+    width:38vw;
+    opacity:0.999;
+  }
+button{
+  font-size: 1.2vw;
+  letter-spacing: .05em;
+  transition: 0.5s;
+  background-color:rgb(4, 131, 117) ;
+  border: solid 2px black;
+}
+.home-but{
+  width: 8vw;
+  height: 35px;
+}
+button:hover{
+  background-color: white;
+  letter-spacing: .17em;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-top: none;
+  border-left: none;
+}
+@media  screen and ( width < 450px ){
+  .mid-icon,.mid-write{
+    width: 80vw;
+    height:200px;
+  }
+  .upper-1,.upper-2{
+    width: 50vw;
+  }
+  .home-but{
+    width: 15vw;
+    font-size: 2.5vw;
+  }
+  .upper-1{
+    border-left: none;
+  }
+  .upper-2{
+    border-left: 5px solid black;
+  }
+  .mid{
+    height: 300px;
+  }
+  .text1{
+    font-size: 5.7vw;
+  }
+  .text2{
+    font-size: 2.8vw;
+  }
+}
+@media screen and ( width >= 450px ) {
+  .icon{
+    height:120px;
+    width:24vw;
+  }
+  .mid{
+    height: 300px;
+  }
+  .mid-icon,.mid-write{
+    height:150px ;
+    width:60vw;
+  }
+  .text1{
+    font-size: 4.2vw;
+  }
+  .text2{
+    font-size: 2.1vw;
+  }
+}
+@media screen and ( width >= 780px ) {
+  .mid{
+    flex-direction: row-reverse;
+    height:400px;
+  }
+  .icon{
+    height:160px;
+    width:20vw;
+  }
+  .mid-icon,.mid-write{
+    width:50vw;
+    height: 400px;
+  }
+}

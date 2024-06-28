@@ -1,0 +1,233 @@
+.main2{
+    width:100%;
+    height:250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.main3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.mid11{
+    width:40vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid22{
+    width: 58.5vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.textbox{ 
+    width:50%;
+    height:90%;
+    background-color: rgb(83, 132, 126,0.5);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 4px  rgb(19, 57, 53);
+    border-radius: 5px;
+    position:relative;
+}
+input,textarea{
+    border-radius: 3px;
+    border: solid 1px black;
+    background: transparent;
+    width: 80%;
+}
+::placeholder{
+    font-size: 1.2em;
+    color:black;
+    font-weight: bold;
+}
+.circular{  
+    border: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    border-radius: 50%;
+    width: 3vw;
+    height:3vw;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 99%; 
+    left: 91%;
+    color:rgb(18, 87, 79);
+    background-color: white;
+}
+.search,.filter{
+    width:21vw;
+    height: 50%;
+    display: flex;
+}
+.search-bar{
+    width: 90%;
+    height:30px;
+    background-color: rgb(83, 132, 126,0.4);
+    border: 2px solid rgb(83, 132, 126);
+    border-radius: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+input,textarea{
+    border: none;
+}
+.search-form{
+    display: flex;
+}
+.search-input::placeholder{
+    font-size: 1.4vw;
+}
+.search-icon{
+    height:20px;
+    width:20px;
+}
+.search-button{
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.infoDisplay{
+    margin-top: 2%;
+    width: 22%;
+    height:190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5em;
+    background-color: rgb(83, 132, 126,0.8);
+    position: relative;
+    font-weight:900;
+}
+.top-left{
+    position: absolute;
+    left:0;
+    top:0;
+    border-top:18px solid rgb(58, 57, 57,0.4);
+    border-right:18px solid rgb(71, 133, 125);
+    border-bottom:18px solid rgb(71, 133, 125);
+    border-left:18px solid rgb(58, 57, 57,0.4);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+.dropdown{
+    width:20%;
+    display: block;
+}
+.dropdown-btn{
+    background-color:rgb(83, 132, 126,0.6) ;
+    padding: 10px;
+    box-shadow: 3px 3px 10px  rgba(0,0,0,0.6);
+    font-size: 1.5vw;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.dropdown-content{
+    background-color: white;
+    border: solid 1px black;
+    padding: 8px;
+    line-height: 1.2em;
+    box-shadow: 3px 3px 10px  rgba(0,0,0,0.6);
+}
+.arrow{
+    height: 18px;
+    width: 18px;
+}
+.dropdown-item{
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.dropdown-item:hover{
+    background-color: rgb(83, 132, 126,0.6);
+}
+@media screen and(width>780px) {
+    .main2{
+        flex-direction: row;
+    }
+}
+@media screen and (width<=780px) {
+    .infoDisplay{
+       width: 46%;
+    }
+    .search-input::placeholder{
+       font-size: 2.5vw;
+    }
+    .search{
+        width: 30vw;
+    }
+    .textbox {
+       width: 45vw;
+   }
+   .main2{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column-reverse;
+     height: 400px;
+     
+   }
+   .mid11,.mid22{
+    height: 50%;
+    width: 100vw;
+   }
+   .dropdown-btn{
+    font-size: 3vw;
+   }
+   .dropdown{
+    width: 30%;
+   }
+}
+@media screen and (width<=450px) {
+   .main3{
+       flex-direction: column;
+       align-items: center;
+   }
+   .infoDisplay{
+       width:65%;
+   }
+   .textbox {
+       width: 65vw;
+   }
+   .circular {
+       font-size: large;
+   }
+   .dropdown-btn{
+    font-size: 4vw;
+   }
+   .arrow{
+    width: 3vw;
+   }
+   .search-input::placeholder{
+    font-size: 3vw;
+ }
+ .search{
+     width: 40vw;
+ }
+ .search-icon{
+    height: 15px;
+    width: 15px;
+ }
+ .infoDisplay{
+    font-weight: 700;
+ }
+}
