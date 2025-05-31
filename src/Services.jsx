@@ -5,7 +5,7 @@ import CompIcon from '/components.png'
 import SpeedIcon from '/monitor.png'
 import CustomIcon from '/flexible.png'
 import UpdateIcon from '/pen.png'
-function service(){
+function Service(){
     return(<div><NavBar/>
                 <div className='services1'>Sevices Page</div>
                 <div className='services2'><span >Our services</span><span className='second111'>What we offer</span></div>
@@ -23,4 +23,4 @@ function service(){
                 </div>
         </div>)
 }
-export default service;
+export default Service;

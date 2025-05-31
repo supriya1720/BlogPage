@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom'
 import './NavBar.css'
-function navbar(){
+function Navbar(){
     return(<div>
                 <div className='upper-blog'>
                     <div className='upper11'>
@@ -14,4 +14,4 @@ function navbar(){
                 </div>
             </div>);
 }
-export default navbar;
+export default Navbar;

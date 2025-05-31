@@ -6,7 +6,7 @@ import SearchIcon from '/search-img.png'
 import Info from './Data.js'
 import Arrow from '/down-arrow.png'
 
-function blog() {
+function Blog() {
     const dot = "...";
     const List = [];
     const [inputText, setInputText] = useState({ title: "", content: "", theme: "", description: "" });
@@ -195,4 +195,4 @@ function blog() {
     )
 }
 
-export default blog;
+export default Blog;

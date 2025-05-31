@@ -1,6 +1,6 @@
 import NavBar from './NavBar.jsx'
 import './About.css'
-function about(){
+function About(){
     return(<div><NavBar/>
                 <div className='about1'>About Us Page</div>
                 <div className='about2'><span className='first11'>Who we are?</span>
@@ -28,4 +28,4 @@ function about(){
                                             Happy Reading!</span></div>
             </div>)
 }
-export default about;
+export default About;

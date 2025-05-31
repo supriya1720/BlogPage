@@ -1,6 +1,6 @@
 import { useLocation } from 'react-router-dom';
 import './BriefDiv.css'
-function briefDiv(props ){
+function BriefDiv(props ){
     const location = useLocation();
     const { title,content,theme,description} = location.state;
     return(<div className='parentBriefDiv'>
@@ -13,4 +13,4 @@ function briefDiv(props ){
         </div>
     </div>)
 }
-export default briefDiv;
+export default BriefDiv;
