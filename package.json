@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "homepage": "https://supriya1720.github.io/BlogPage/",
   "name": "blog_website",
   "private": false,
@@ -30,3 +31,18 @@
     "vite": "^5.4.19"
   }
 }
+=======
+  "dependencies": {
+    "react-router-dom": "^6.23.1",
+    "vite": "^6.0.7"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "scripts": {
+  "dev": "vite",
+  "start": "vite preview",
+  "build": "vite build"
+  }
+}
+>>>>>>> e16530280 (Add vercel.json and package.json)
