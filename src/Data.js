@@ -22,8 +22,3 @@ const info=[
 ]
 export default info;
 
-//search k liye ky krna h aur 
-// yahi ki jo ek baar search kiye uske baad agr kuchh aur search kiye to wo bhi aana chahiye?
-//jaise tanya k baad supriya search krne pe wo bhi aa jaye
-//yahi na??
-// mhm aur reset ka option hota to acha hota but ig wo optional
