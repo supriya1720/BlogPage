@@ -88,7 +88,7 @@ function Blog() {
                         <input
                             id="title-input"
                             name='title'
-                            placeholder="Title"
+                            placeholder="Title..."
                             type="text"
                             className='first'
                             onChange={handleChange}
@@ -99,7 +99,7 @@ function Blog() {
                         <textarea
                             id="content-input"
                             name='content'
-                            placeholder="Take a content..."
+                            placeholder="Content..."
                             type="text"
                             className='second'
                             rows="2"
@@ -111,7 +111,7 @@ function Blog() {
                         <input
                             id="theme-input"
                             name='theme'
-                            placeholder="Theme"
+                            placeholder="Theme..."
                             type="text"
                             className='first'
                             onChange={handleChange}
@@ -122,7 +122,7 @@ function Blog() {
                         <textarea
                             id="description-input"
                             name='description'
-                            placeholder="Take a description..."
+                            placeholder="Description..."
                             type="text"
                             className='second'
                             rows="2"
