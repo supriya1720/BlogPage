@@ -20,7 +20,6 @@
 }
 .mid22{
     width: 58.5vw;
-    height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -177,17 +176,22 @@ input,textarea{
         width: 30vw;
     }
     .textbox {
+        height: 100%;
        width: 45vw;
    }
    .main2{
      display: flex;
      flex-wrap: wrap;
      flex-direction: column-reverse;
-     height: 400px;
+     height: 500px;
      
    }
-   .mid11,.mid22{
-    height: 50%;
+   .mid22{
+    height: 30%;
+    width: 100vw;
+   }
+   .mid11{
+    height:70%;
     width: 100vw;
    }
    .dropdown-btn{
@@ -203,10 +207,10 @@ input,textarea{
        align-items: center;
    }
    .infoDisplay{
-       width:65%;
+       width:90vw;
    }
    .textbox {
-       width: 65vw;
+       width: 90vw;
    }
    .circular {
        font-size: large;
